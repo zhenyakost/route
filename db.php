@@ -1,9 +1,9 @@
 <?php 
 
 if(isset($_GET)){
-    print('OK')
+    echo 1;
 }else{
-    print('Np')
+    echo 0;
 }
 
 // $db = mysqli_connect('remotemysql.com', 'iGxjWW4tCk', 'HJhcXwdGmX', 'iGxjWW4tCk');
